@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(gray, darkblue);
+    padding: 10px;
+    color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(red, green, blue);
+}
+
+header h1 {
+    display: inline-block;
+    background-color: black;
+    padding: 5px 20px 5px 50px;
+    font-size: 50px;
+    margin-left: -50px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    list-style-type: none;
+}
+
+nav ul a {
+    padding: 25px;
+    display: flex;
+    font-size: 30px;
+    color: white;
+}
+
+.web {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 100px;
+    align-items: flex-end;
+    height: 350px;
+    background-image: url(https://i.pinimg.com/originals/33/66/30/3366302fcff27090c4aea68890b30243.jpg);
+    background-size: cover;
+    background-position: center;
+} 
+
+
+
+.web h2 {
+    padding: 20px;
+    text-align: right;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    background-color: black;
+}
+
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    border-right: 3px solid black;
+}
+
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
